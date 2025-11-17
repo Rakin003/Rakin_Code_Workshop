@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hover Transition & Shadows</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <style>
+            .btn-1{
+                background-color: rgb(200, 0, 0);
+                color: white;
+                border: none;
+                height: 37px;
+                width: 105px;
+                cursor: pointer;
+                border-radius: 2px;
+                transition: opacity 0.15s;
+            }
+            .btn-1:hover {
+                opacity: 0.7;
+            }
+            .btn-1:active {
+                opacity: 0.5;
+            }
+            .btn-2 {
+                background-color: white;
+                color: rgb(14, 170, 231);
+                border-width: 1px;
+                border-radius: 2px;
+                border-color: rgb(14, 170, 231);
+                border-style: solid;
+                height: 37px;
+                width: 62px;
+                cursor: pointer;
+                transition: background-color 1s,color 1s;
+                
+            }
+            .btn-2:hover{
+                background-color: rgb(14, 170, 231);
+                color: white;
+            }
+            .btn-2:active {
+                opacity: 0.7;
+                transition: opacity 1s;
+            }
+            .btn-3 {
+                background-color: rgb(2,158,255);
+                color: white;
+                font-weight: bold;
+                border: none;
+                border-radius: 30px;
+                height: 37px;
+                width: 69px;
+                cursor: pointer;
+                /* box-shadow: [inset] <offset-x> <offset-y> <blur-radius> <spread-radius> <color>; */
+                transition: box-shadow 0.15s,opacity 0.15s;
+            }
+            .btn-3:hover{opacity: 0.7;}
+            .btn-3:active{
+                opacity: 0.5;
+                box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
+            }
+            .uber {
+                background-color: black;
+                color: white;
+                border: none;
+                height: 37px;
+                width: 110px;
+                cursor: pointer;
+            }
+            .uber:hover{opacity: 0.8;}
+            .amazon {
+                background-color: rgb(255, 208, 0);
+                color: black;
+                border: none;
+                height: 37px;
+                width: 170px;
+                border-radius: 30px;
+                cursor: pointer;
+            }
+            .amazon:hover {
+                background-color: rgb(241, 157, 0);
+            }
+            .github {
+                background-color: rgb(46,164,79);
+                color: white;
+                border: none;
+                border-radius: 5px;
+                font-weight: bold;
+                height: 37px;
+                width: 82px;
+                cursor: pointer;
+            }
+            .github:hover {
+                box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
+            }
+            .bootstrap {
+                background-color: rgb(121,82,179);
+                color: white;
+                border: none;
+                height: 37px;
+                width: 102px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            .bootstrap:hover {
+                background-color: rgb(100, 68, 148);
+            }
+            .bootstrap-1 {
+                background-color: white;
+                color: rgb(108,117,125);
+                border-style: solid;
+                border-color: rgb(108,117,125);
+                border-width: 1px;
+                height: 37px;
+                width: 90px;
+                border-radius: 3px;
+                cursor: pointer;
+            }
+            .bootstrap-1:hover {
+                background-color: rgb(108,117,125);
+                color: white;
+            } 
+            .linkedin-1 {
+                background-color: rgb(10,102,194);
+                color: white;
+                border: none;
+                height: 37px;
+                width: 200px;
+                border-radius: 30px;
+                cursor: pointer;
+            }
+            .linkedin-1:hover {
+                background-color: rgb(9, 81, 153);
+            }
+            .linkedin-2 {
+                background-color: white;
+                color: rgb(10, 98, 185);
+                border-color: rgb(10, 98, 185);
+                border-style: solid;
+                height: 37px;
+                width: 62px;
+                border-width: 1px;
+                font-weight: bold;
+                border-radius: 30px;
+                cursor: pointer;
+            }
+            .linkedin-2:hover {
+                border-width: 2px;
+                background-color: rgba(10, 98, 185,0.1);
+            }
+            .sec-3 {
+                border-color: black;
+                margin-top: 20px;
+                border-style: solid;
+                border-width: 1px;
+                padding: 15px;
+                width: 300px;
+            }
+            #amazon-link {
+                color: rgb(0, 60, 255);
+            }
+            #amazon-link:hover {
+                color: rgb(221, 3, 3);
+            }
+            .btn-5 {
+                background-color: rgb(255, 208, 0);
+                color: black;
+                border: none;
+                cursor: pointer;
+                height: 28px;
+                width: 110px;
+                border-radius: 25px;
+                transition:  background-color 0.20s,opacity 0.20s;
+            }
+            .btn-5:hover {
+                background-color: rgb(233, 180, 4);
+            }
+            .btn-5:active {
+                opacity: 0.7;
+            }
+            .btn-6 {
+                background-color: rgb(255, 153, 0);
+                color: black;
+                border: none;
+                height: 28px;
+                width: 80px;
+                margin-left: 10px;
+                border-radius: 30px;
+                transition:  background-color 0.20s,opacity 0.20s;
+            }
+            .btn-6:hover {
+                background-color: rgb(255, 123, 0);
+            }
+            .btn-6:active {
+                opacity: 0.7;
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <button class="btn-1">SUBSCRIBE</button>
+            <button class="btn-2">JOIN</button>
+            <button class="btn-3">Tweet</button>
+        </section>
+        <section style="margin-top: 10px;">
+            <button class="uber">Request now</button>
+            <button class="amazon">Add to Cart</button>
+            <button class="github">Sign up</button>
+            <button class="bootstrap">Get started</button>
+            <button class="bootstrap-1">Download</button>
+            <button class="linkedin-1">Apply on company website</button>
+            <button class="linkedin-2">Save</button>
+        </section>
+        <section class="sec-3">
+            <a href="#" id="amazon-link">Back to Amazon</a>
+            <h2>Nike Black Running Shoes</h2>
+            <p style="color: green;font-weight: bold;">$39 - in stock</p>
+            <p>Free delivery tomorrow.</p>
+            <button class="btn-5">Add to Cart</button>
+            <button class="btn-6">Buy now</button>
+        </section>
+    </body>
+</html>
