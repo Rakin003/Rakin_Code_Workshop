@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson Seven</title>
+    <style>
+        .sec-1,.sec-2 {
+            outline: 1px solid red;
+            padding: 5px;
+        }
+        #seven-a {
+            width: 200px;
+            border-radius: 15px;
+        }
+        
+        .seven-b {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            object-position: center;
+            margin-left: 30px;
+            border-radius: 10px;
+        }
+        .seven-c {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            object-position: center;
+            margin-left: 30px;
+            border-radius: 100%;
+        }
+        #box-1 {
+            padding: 7px 10px 7px 10px;
+            font-size: 12px;
+            border-radius: 6px;
+            border: 1px solid;
+            border-color: rgb(170, 170, 170);
+        }
+        #box-2 {
+            padding-right: 150px;
+            border-radius: 80px;
+            padding: 7px 150px 7px 10px;
+            font-size: 12px;
+            border: none;
+            box-shadow: 0px 1px 5px rgba(0,0,0,0.25);
+        }
+        #sec-3 {
+            margin-top: 10px;
+            outline: 1px solid red;
+            padding: 10px;
+        }
+        .img-seven {
+            height: 35px;
+            width: 35px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 100%;
+            vertical-align: middle;
+        }
+        #input-seven{
+            padding: 5px 50px 5px 10px;
+            font-size: 10px;
+            border: none;
+            vertical-align: middle;
+        }
+        #btn-1 {
+            background-color:  rgb(29, 155, 240);
+            color: white;
+            border: none;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 10px;
+            vertical-align: middle;
+            cursor: pointer;
+        }
+         #btn-1:hover {
+            opacity: 0.90;
+         }
+         #btn-1:active {
+            opacity: 0.80;
+            box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+         }
+         #sec-4 {
+            margin-top:10px;
+            outline: 1px solid red;
+            padding: 10px;
+         }
+         #email {
+            display: block;
+            color: gray;
+            font-size: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-bottom: 5px;
+         }
+         #email-input {
+            display: block;
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 3px;
+            width: 220px;
+         }
+         #agree {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 8px;
+            color: gray;
+         }
+         .btn-2 {
+            width: 225px;
+            padding: 5px 0px;
+            font-size: 10px;
+            border: none;
+            background-color: rgb(0, 89, 255);
+            color: white;
+            border-radius: 10px;
+            cursor: pointer;
+         }
+         .btn-2:hover {
+            opacity: 0.90;
+         }
+         .btn-2:active {
+            opacity: 0.80;
+         }
+    </style>
+</head>
+<body>
+    <div class="sec-1">
+        <img id="seven-a" alt="turtle" src="./images/Fotolia_64349981_S.jpg">
+        <img class="seven-b" alt="turtle" src="./images/Fotolia_64349981_S.jpg">
+        <img class="seven-c" alt="turtle" src="./images/Fotolia_64349981_S.jpg">
+    </div>
+    <div class="sec-2">
+        <input id="box-1" name="Search" placeholder="Search">
+        <input id="box-2" name="Search" placeholder="Search Google or type URL">
+    </div>
+    <div id="sec-3">
+        <img class="img-seven" alt="turtle" src="./images/Fotolia_64349981_S.jpg">
+        <input id="input-seven" name="onmind" placeholder="What&apos;s happening&quest;">
+        <button id="btn-1">Tweet</button>
+    </div>
+    <div id="sec-4">
+        <label for="email" id="email">Email</label>
+        <input id="email-input" name="name" />
+        <p id="agree">By clicking Agree & Join&comma; you agree to the Privacy Policy&period;</p>
+        <button class="btn-2">Agree & Join</button>
+    </div>
+</body>
+</html>

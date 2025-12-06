@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson Nine</title>
+    <style>
+        .nine-a{
+            background-color: red;
+            height: 100px;
+            width: 100px;
+        }
+        .nine-b {
+            background-color: green;
+            height: 100px;
+            width: 100px;
+            border-radius: 100%;
+        }
+        .nine-c p {
+            font-family: arial;
+        }
+        .card {
+           width: 250px;
+           border-width: 1px;
+           border-style: solid;
+           border-color: rgb(150, 150, 150);
+           padding-left: 15px;
+           padding-bottom: 20px;
+        }
+        .nine-d {
+            border-style: solid;
+            border-width: 1px;
+            margin-top: 10px;
+            width: 350px;
+            padding-left: 10px;
+            padding-right: 20px;
+            background-color: rgb(33, 33, 33);
+        }
+         .nine-d .p1 {
+            color: white;
+            font-family: arial;
+         }
+        .nine-d .p2 {
+            color: rgb(160, 160, 160);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .nine-e {
+           border: none;
+            width: 450px;
+            padding: 12px;
+            margin-top: 10px;
+            border-radius: 10px;box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+            
+        }
+        .post,.twet-img,.Tweet-btn{vertical-align: middle;}
+        .twet-img {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 100%;
+        }
+        .post {
+            width: 300px;
+            padding: 14px 5px;
+            border: none;
+            font-size: 16px;
+        }
+        .Tweet-btn {
+            padding: 10px 15px;
+            background-color: rgb(0, 132, 255);
+            border: none;
+            border-radius: 30px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .nine-f {
+            width: 150px;
+            border: none;
+            box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+            margin: 10px;
+            display: inline-block;
+        }
+        .box-1-cat {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            object-position: center;
+        }
+        .oliver,.add-1 {margin-bottom: 10px; margin-left: 8px;}
+        .friends {
+            display: block;
+            
+        }
+        .oliver {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        .friends {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            color: gray;
+            font-weight: normal;
+        }
+        .add-1 {
+            background-color: rgb(0, 132, 255);
+            border: none;
+            padding: 6px 11px;
+            color: white;
+            border-radius: 3px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        .add-1:hover {opacity: 0.90;}
+        .add-1:active {opacity: 0.80;}
+        .card-one,.card-two,.card-three {
+            display: inline-block;
+            width: 150px;
+            box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+           margin: auto;
+        }
+        .card-two,.card-three {
+            margin-left: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="nine-a"></div>
+    <div class="nine-b"></div>
+    <div class="card">
+        <p>Satisfied with our service&quest;</p>
+        <button>Yes</button>
+        <button>No</button>
+    </div>
+    <div class="nine-d">
+        <p class="p1">Install Youtube Music</p>
+        <p class="p2">Add Youtube Music to your desktop for quick and easy access</p>
+    </div>
+    <div class="nine-e">
+        <img  class="twet-img" src="./images/cat.jpg">
+        <input type="text" class="post" placeholder="What&apos;s on mind&quest;" />
+        <button class="Tweet-btn">Tweet</button>
+    </div>
+    <div class="nine-f">
+        <img src="./images/cat.jpg" alt="cat-1" class="box-1-cat">
+        <p class="oliver">Oliver <span class="friends">2 mutual friends</span></p>
+        <button class="add-1">Add Friends</button>
+    </div>
+    <div class="cards">
+        <div class="card-one">
+            <img src="./images/cat.jpg" alt="cat-1" class="box-1-cat">
+            <p class="oliver">Oliver <span class="friends">2 mutual friends</span></p>
+            <button class="add-1">Add Friends</button>
+        </div>
+        <div class="card-two">
+            <img src="./images/cat2.jpg" alt="cat-1" class="box-1-cat">
+            <p class="oliver">Mimi <span class="friends">3 mutual friends</span></p>
+            <button class="add-1">Add Friends</button>
+        </div>
+        <div class="card-three">
+            <img src="./images/dog.jpg" alt="cat-1" class="box-1-cat">
+            <p class="oliver">Rex <span class="friends">4 mutual friends</span></p>
+            <button class="add-1">Add Friends</button>
+        </div>
+    </div>
+</body>
+</html>

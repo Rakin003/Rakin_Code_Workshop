@@ -1,0 +1,118 @@
+a {
+    text-decoration: none;
+}
+.video-card-container {
+    border: none;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    width: 400px;
+    padding: 10px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.video-card-container:hover {
+    opacity: 0.90;
+    cursor: pointer;
+
+}
+#thumbnail-pic {
+    width: 100%;
+}
+.profile-pic {
+    display: inline-block;
+    width: 40px;
+    vertical-align: top;
+    margin-top: 3px;
+    
+    
+}
+.profile-pic > img {width: 100%;border-radius: 100%; margin-top: 7px;}
+#thumbnail-pic {
+    border-radius: 10px;
+}
+.video-info {
+    display: inline-block;
+    width: 320px;
+    margin-top: 7px;
+    margin-left: 6px;
+    
+}
+.video-info > p {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.video-info > #channel-name, #views {
+    color: rgb(172, 170, 170);
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.friends-container-2 { 
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.25);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.profile-pic-one > img {
+    height: 200px;
+    width: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.profile-name-one > p  {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.mutual-friend-one > img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100%;
+    vertical-align: middle;
+    
+    
+}
+.mutual-friend-one > p {
+    display: inline-block;
+    vertical-align: middle;margin-top: 0px;margin-bottom: 0px;margin-left: 3px;
+    font-size: 15px;
+    color: gray;
+    
+}
+.mutual-friend-one {display: block; margin-top: 5px;}
+.btn {
+    margin-top: 10px;
+}
+.box {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.btn > .add-friend {
+    border: none;
+    padding: 8px;
+    padding-left: 17px;
+    padding-right: 17px;
+    background-color: rgb(1, 112, 216);
+    border-radius: 5px;
+    color: white;
+}
+.btn > .add-friend:hover {
+    cursor: pointer;
+    opacity: 0.90;
+}
+.btn > .add-friend:active {
+    opacity: 0.80;
+}

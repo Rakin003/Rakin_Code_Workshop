@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson Eight</title>
+    <style>
+        div {
+            outline: 1px solid red;
+            margin-top: 10px;
+            padding: 10px;
+        }
+        #name-input,.email-input {
+            display: block;
+        }
+        
+        .email-input {
+            margin-top: 5px;
+        }
+        #eight-b p {
+            width: 200px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        button {
+            vertical-align: middle;
+        }
+        img {
+            display: block;
+            width: 200px;
+            margin: auto;
+        }
+        #google-search {
+            display: block;
+            width: 200px;
+            margin: auto;
+            margin-top: 7px;
+            border: none;
+            box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+            width: 400px;
+            padding: 10px 10px;
+            border-radius: 30px;
+        }
+        #uber,#uber-des {
+            display: block;
+            padding: 6px 20px;
+            width: 200px;
+            border: none;
+            background-color: rgb(240, 240, 240);
+            font-size: 11px;
+            border-color: black;
+            width: 250px;
+        }
+        #uber-des {
+            margin-top: 5px;
+        }
+        #btn-1,#btn-2 {
+            margin-top: 25px;
+        }
+        #btn-1 {
+            background-color: black;
+            border: none;
+            padding: 10px 15px;
+            color: white;
+            font-size: 11px;
+            cursor: pointer;
+        }
+        #btn-2 {
+            background-color: rgb(240, 240, 240);
+            border: none;
+            padding: 10px 15px;
+            color: black;
+            font-size: 11px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+        #fname,#lname {
+            width: 100px;
+            padding: 8px;
+            border-radius: 5px;
+            border-style: solid;
+            border-width: 1px;
+            font-size: 11px;
+        }
+        #email-2 {
+            display: block;
+            margin-top: 10px;
+            width: 220px;
+            padding: 8px;
+            border-radius: 5px;
+            border-style: solid;
+            border-width: 1px;
+            font-size: 11px;
+        }
+        #btn-3 {
+            width: 237px;
+            padding: 8px;
+            margin-top: 10px;
+            background-color: rgb(0, 102, 255);
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="eight-a">
+        <input id="name-input" name="name" placeholder="Name"/>
+        <input class="email-input" name="email" placeholder="Email"/>
+    </div>
+    <div id="eight-b">
+        <p>Thanks for chatting with our customer support&period; Would you
+            like to take our quick survey&quest;</p>
+        <button>Yes</button>
+        <button>No</button>
+    </div>
+    <div id="eight-c">
+        <img src="./images/google-logo.png"/>
+        <form action="https://www.google.com/search" method="get">
+            <input type="text" id="google-search" name="q" placeholder="Search Google or type a URL"/>
+        </form>
+    </div>
+    <div id="eight-d">
+        <p style="font-family: Arial, Helvetica, sans-serif;font-size: 23px;">Request a ride now</p>
+        <input type="text" id="uber" placeholder="Enter pickup location">
+        <input type="text" id="uber-des" placeholder="Enter destination">
+        <button id="btn-1">Request now</button>
+        <button id="btn-2">Schedule for later</button>
+    </div>
+    <div id="eight-e">
+        <input type="text" id="fname" placeholder="First name">
+        <input type="text" id="lname" placeholder="Last name">
+        <input type="text" id="email-2" placeholder="Email">
+        <button id="btn-3">Sign Up</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text styling</title>
+    <style>
+        #five-a{
+            font-size: 30px;
+            font-weight: bold;
+            font-family: Tahoma, sans-serif;
+        }
+        #five-b{
+            font-size: 30px;
+            font-weight: bold;
+            font-family: Arial;
+        }
+        .fiveb-set {
+            display: block;
+            line-height: 40px;
+            font-size: 25px;
+            font-weight: normal;
+            color: red;
+            font-style: italic;
+        }
+        .title,.subtitle,.description {
+            font-family: Verdana;
+        }
+        .title {
+            margin-bottom: 5px;
+            font-size: 23px;
+            font-weight: bold;
+        }
+        .subtitle {
+            margin-top: 0px;
+            font-size: 20px;
+            color: gray;
+        }
+        .description {
+            font-size: 18px;
+            width: 350px;
+        }
+        .get-started {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            background-color: green;
+            color: white;
+            font-size: 15px;
+            font-family: Verdana;
+            cursor: pointer;
+        }
+        .get-started:hover {
+            opacity: 0.90;
+        }
+    </style>    
+</head>
+<body>
+    <p id="five-a">This is Tahoma Font</p>
+    <p id="five-b">Big Deals of the Year <span class="fiveb-set">Sales end Tuesday</span></p>
+    <p class="title">HTML CSS Course</p>
+    <p class="subtitle">Beginner to Pro</p>
+    <p class="description">In this course&comma; we&apos;ll
+        learn the skills you need to become a devoloper&period;
+    </p>
+    <button class="get-started">Get Started</button>
+</body>
+</html>

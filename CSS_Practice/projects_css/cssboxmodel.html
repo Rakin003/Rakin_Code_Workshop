@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Practice CSS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <style>
+            * {
+                outline: 1px solid red;
+            }
+            .shadow {
+                background-color: rgb(2, 180, 2);
+                color: white;
+                border: none;
+                padding: 5px;
+                padding-left: 15px;
+                padding-right: 15px;
+                border-radius: 6px;
+                box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
+                cursor: pointer;
+                transition: background-color 0.2s, opacity 0.2s;
+            }
+            .shadow:hover{
+                background-color: rgb(2, 161, 2);
+            }
+            .shadow:active {
+                 margin-top: 1px;
+                 margin-left: 1px;
+                 box-shadow: 0px 0px 0px 0px;
+                 opacity: 0.8;
+            }
+        </style>
+    </head>
+    <body>
+            <button class="shadow">shadow</button>
+    </body>
+</html>
