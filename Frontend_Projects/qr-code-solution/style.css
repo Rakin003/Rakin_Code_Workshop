@@ -1,0 +1,47 @@
+:root {
+    --fontname: "Outfit", sans-serif;
+}
+body {background-color: rgb(213, 225, 239);}
+.title {
+    font-family: var(--fontname);
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 16px;
+    text-align: center;
+    line-height: 120%;
+    letter-spacing: 0px;
+    color: rgb(31, 49, 79);
+}
+.description {
+    font-family: var(--fontname);
+    font-weight: normal;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: rgb(104, 119, 141);
+}
+.card-container {
+    height: 499px;
+    width: 320px;
+    background-color: white;
+    padding: 16px 16px 40px 16px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.qr-code {
+    width: 100%;
+    margin-bottom: 24px;
+    border-radius: 10px;
+}
+.text {
+    margin-left: 16px;
+    margin-right: 16px;
+}
