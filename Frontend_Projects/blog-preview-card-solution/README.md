@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://github.com/Rakin003/Rakin_Code_Workshop/tree/main/Frontend_Projects/blog-preview-card-solution)
+- [Live Site URL](https://rakin003.github.io/Rakin_Code_Workshop/Frontend_Projects/blog-preview-card-solution/)
 
 ## My process
 
