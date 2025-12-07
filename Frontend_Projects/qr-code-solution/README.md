@@ -21,7 +21,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- [Solution URL](https://github.com/Rakin003/Rakin_Code_Workshop/tree/74631b45dabcb79843fe89b53df998ccdfe1e589/Frontend_Projects/qr-code-solution)
+- [Solution URL](https://github.com/Rakin003/Rakin_Code_Workshop/tree/main/Frontend_Projects/qr-code-solution)
 - [Live Site URL](https://rakin003.github.io/Rakin_Code_Workshop/Frontend_Projects/qr-code-solution/)
 
 ## My process
