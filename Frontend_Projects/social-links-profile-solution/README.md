@@ -18,25 +18,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ![](./screenshot.png)
 
-<p align="center" style="
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 15px;
-  padding: 10px;
-">
-
-  <a href='/Frontend Projects/01-single-page-cv/' style="
-    display: block;
-    background: #ffffff;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
-  ">
-    <img width="100%" src="./screenshot.png" alt="Hello" />
-  </a>
-</p>
-
-
 ### Links
 
 - [Live Site URL](https://rakin003.github.io/Rakin_Code_Workshop/Frontend_Projects/social-links-profile-solution)
