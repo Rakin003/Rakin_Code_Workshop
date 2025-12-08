@@ -1,0 +1,72 @@
+:root {
+    --Grey700:hsl(0, 0%, 20%);
+    --Grey800:hsl(0, 0%, 12%);
+    --Grey900:hsl(0, 0%, 8%);
+    --green:hsl(75, 94%, 57%);
+}
+body {
+    background-color: var(--Grey900);
+}
+#container {
+    background-color: var(--Grey800);
+    width: 300px;
+    padding: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#container img {
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    
+}
+#container  .name {
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+    color: white;
+    
+}
+#container .place {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    color: var(--green);
+}
+#container .title {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: hsl(0, 0%, 90%);
+    text-align: center;
+    margin-bottom: 22px;
+    margin-top: 27px;
+}
+.button {
+    display: grid;
+    grid-template-rows: 1fr;
+    row-gap: 15px;
+    margin-bottom: 10px;
+}
+.button button {
+    padding: 12px;
+    background-color: var(--Grey700);
+    color: hsl(0, 0%, 97%);
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    border-radius: 7px;
+    border: none;
+    font-size: 13px;
+}
+.button button:active {
+    background-color: var(--green);
+    color: var(--Grey700);
+    cursor: pointer;
+}
