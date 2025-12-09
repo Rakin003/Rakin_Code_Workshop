@@ -16,17 +16,11 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Screenshot
 
-<!-- ![](./screenshot.png) -->
-<p style="align-center">
-  <a href="#">
-    <img src="./screenshot.png" width="48%" alt="Social Link Profile"/>
-  </a>
-</p>
+![](./screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Live Site URL](https://rakin003.github.io/Rakin_Code_Workshop/Frontend_Projects/social-links-profile-solution)
 
 ## My process
 
