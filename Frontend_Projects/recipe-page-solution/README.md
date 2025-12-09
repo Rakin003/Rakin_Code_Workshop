@@ -14,8 +14,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -23,11 +21,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - Make the website responsive for all users
 
 ### Screenshot
-
-<a href="#" style="align:left;">
-  <img src="./desktop-screenshot.png" style="width:50%;">
-  <img src="./mobile-screenshot.png" style="height:400px;>
-</a>
 
 ### Links
 
