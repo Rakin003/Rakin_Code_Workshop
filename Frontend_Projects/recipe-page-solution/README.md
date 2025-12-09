@@ -22,9 +22,14 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
+<a href="#">
+  <img alt="Desktop Version" src="./desktop-screenshot.png" style="align:left;"/>
+  <img  alt="Mobile Version"  src="./mobile-screenshot.png" style="height:300px;align:right;"/>
+</a>
+
 ### Links
 
-- [Live Site]()
+- [Live Site](https://rakin003.github.io/Rakin_Code_Workshop/Frontend_Projects/recipe-page-solution/)
 
 ## My process
 
