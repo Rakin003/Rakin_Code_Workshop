@@ -24,7 +24,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 <p>
   <img alt="Desktop Version" src="./desktop-screenshot.png" style="align:left;width:50%;"/>
-  <img  alt="Mobile Version"  src="./mobile-screenshot.png" style="height:315px;align:left;"/>
+  <img  alt="Mobile Version"  src="./mobile-screenshot.png" style="height:317px;align:left;"/>
 </p>
 
 ### Links
