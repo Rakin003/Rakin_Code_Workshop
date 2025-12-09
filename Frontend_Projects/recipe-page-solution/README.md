@@ -24,10 +24,10 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-<figure>
-  <img src="./desktop-screenshot.png" style="width:40%;align:left;">
+<figure style="align:left;"">
+  <img src="./desktop-screenshot.png" style="width:40%;">
   <figcaption>Desktop Version</figcaption>
-  <img src="./mobile-screenshot.png" style="height:400px;align:left;">
+  <img src="./mobile-screenshot.png" style="width:40%;height:400px;
   <figcaption>Mobile Version</figcaption>
 </figure>
 
