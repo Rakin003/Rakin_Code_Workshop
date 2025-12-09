@@ -22,10 +22,10 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-<a href="#" style="text-decoration:none;">
+<p>
   <img alt="Desktop Version" src="./desktop-screenshot.png" style="align:left;width:50%;"/>
   <img  alt="Mobile Version"  src="./mobile-screenshot.png" style="height:315px;align:left;"/>
-</a>
+</p>
 
 ### Links
 
