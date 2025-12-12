@@ -29,7 +29,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- [Live Site](https://rakin003.github.io/Rakin_Code_Workshop/Frontend_Projects/recipe-page-solution/)
+- [![Live Site](hello.ico)](https://rakin003.github.io/Rakin_Code_Workshop/Frontend_Projects/recipe-page-solution/)
 
 ## My process
 
