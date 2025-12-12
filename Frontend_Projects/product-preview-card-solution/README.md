@@ -34,6 +34,7 @@ Users should be able to:
 
 ## Live Site
 
+- [Live Site](https://rakin003.github.io/Rakin_Code_Workshop/Frontend_Projects/product-preview-card-solution/)
 
 ## My process
 
