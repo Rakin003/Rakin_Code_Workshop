@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --gray500: hsl(234, 12%, 34%);
+    --gray400: hsl(212, 6%, 44%);
+}
+p,h1 {
+    font-family: "Poppins", sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+body {
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+}
+.card-container{
+    display: flex;
+    gap: 20px; 
+}
+.col1,.col2,.col3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    max-width: 400px;
+    width: 100%; 
+}
+.card1,.card2,.card3,.card4{
+    background-color: white;
+    max-width: 300px;
+    width: 100%;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.25);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 45px;
+    transition: 0.3s transform;
+}
+.card1:hover,.card2:hover,.card3:hover,.card4:hover{
+    transform: translateY(-5px);
+}
+.title{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: var(--gray500);
+    font-weight: 600;
+}
+.description{
+    margin-top: 5px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    color: var(--gray400);
+}
+.card2{border-top: 4px solid var(--red);}
+.card4{border-top: 4px solid var(--orange);}
+.card1{border-top: 4px solid var(--cyan);}
+.card3{border-top: 4px solid var(--blue);}
+img {
+    height: 60px;
+    width: 60px;
+}
+.img-contain {
+    display: flex;
+    justify-content: flex-end;
+}
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.about{
+    max-width: 550px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    color: var(--gray400);
+}h1 {text-align: center;}
+.title1 {
+    font-weight: 200;
+    color: var(--gray400);
+}.title2 {color: var(--gray500);}
+main{
+    margin-top: 150px;
+}
+@media (max-width:500px){
+    .card-container{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .card1,.card3 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .title1,.title2{
+        font-size: 25px;
+    }
+    .section1{
+        margin-bottom: 30px;
+    }
+    main{
+        margin-top: 50px;
+    }
+}
